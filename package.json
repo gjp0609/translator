@@ -1,0 +1,34 @@
+{
+    "name": "scripts",
+    "version": "3.0.0",
+    "description": "https://github.com/gjp0609/translate",
+    "author": {
+        "name": "gjp0609",
+        "email": "gjp0609@qq.com",
+        "url": "https://github.com/gjp0609"
+    },
+    "repository": {
+        "url": "https://github.com/gjp0609/translate"
+    },
+    "license": "ISC",
+    "scripts": {
+        "_install": "pnpm install",
+        "_build": "tsc --build",
+        "_test": "tsc --build & node src/main.js"
+    },
+    "type": "module",
+    "dependencies": {
+        "puppeteer-core": "^15.3.2"
+    },
+    "devDependencies": {
+        "@types/node": "^18.0.4",
+        "@typescript-eslint/eslint-plugin": "^5.30.5",
+        "@typescript-eslint/parser": "^5.30.5",
+        "eslint": "^8.19.0",
+        "eslint-config-alloy": "^4.6.2",
+        "eslint-config-prettier": "^8.5.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "prettier": "^2.7.1",
+        "typescript": "^4.7.4"
+    }
+}
